@@ -1,5 +1,5 @@
 # デバイスドライバ
-2021年度のロボシス課題１のコードを少し変更した。
+2021年度のロボシス課題１のコードを少し変更しました。
 # 環境
 Ubuntu Server 20.04
 # 使用したもの
@@ -11,7 +11,7 @@ Ubuntu Server 20.04
 # ピンの配置について
 GPIOは2,14,17,20,25の5カ所です。GNDはどこでもいいです。
 （因みにpinoutと打つと、GPIOやGNDの位置が分かります。）
-![gazo](https://github.com/Noel225/robosys/issues/1#issue-1096301637/)
+![gazo](https://user-images.githubusercontent.com/92023120/148549805-f329cfae-7e3b-4912-a2ec-6390b1c87caf.jpeg)
 # インストール
 - git clone https://github.com/Noel225/robosys.git
 - cd robosys
@@ -31,5 +31,5 @@ sudo rmmod myled
 https://youtu.be/7w-jiCp_I7s
 
 # 参考
-sleepを使いたいがどんなヘッダファイルを追加すればよいか分からなかったため、以下の方のリポジトリを参考にした。
+sleepを使いたいがどんなヘッダファイルを追加すればよいか分からなかったため、以下の方のリポジトリを参考にしました。
 https://github.com/MiyamotoKK/robosys_devicedriver
