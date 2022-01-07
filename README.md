@@ -10,3 +10,8 @@ echo 0 > /dev/myled0
 echo t > /dev/myled0
 # LEDの点灯(光る順番が逆になる)
 echo h > /dev/myled0
+
+
+# 参考
+sleepを使いたいがどんなヘッダファイルを追加すればよいか分からなかったため、以下の方のリポジトリを参考にした。
+https://github.com/MiyamotoKK/robosys_devicedriver
