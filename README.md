@@ -10,10 +10,11 @@ Ubuntu Server 20.04
 - ジャンプワイヤ(オス-オス) 5本
 - 抵抗 180Ω 5本
 # ピンの配置について
-GPIOは2,14,17,20,25の5カ所です。GNDはどこでもいいです。
-（因みにpinoutと打つと、GPIOやGNDの位置が分かります。）
+GPIOは2,14,17,20,25の5カ所です。GNDはGNDと書いてある所であればどこでもいいです(２枚目の画像参照)。
+因みにpinoutと打つと、GPIOやGNDの位置が分かります。
 ![gazo](https://user-images.githubusercontent.com/92023120/148549805-f329cfae-7e3b-4912-a2ec-6390b1c87caf.jpeg)
-![gazo2](https://user-images.githubusercontent.com/92023120/148550502-96d559d2-27ef-40c4-814e-8fe3a09c8758.png)
+![gazo2](https://user-images.githubusercontent.com/92023120/148550883-4543dee5-f4ca-43c7-addb-c00687eeb756.png)
+![gazo3](https://user-images.githubusercontent.com/92023120/148550502-96d559d2-27ef-40c4-814e-8fe3a09c8758.png)
 # インストール
 - git clone https://github.com/Noel225/robosys.git
 - cd robosys
