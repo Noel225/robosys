@@ -1,20 +1,20 @@
 # デバイスドライバ
 2021年度のロボシス課題１のコードを少し変更した。
 # 使用したもの
-・ブレッドボード
-・Raspberry Pi3 Model B
-・LED 5本
-・ジャンプワイヤ(オス-メス) 7本
-・ジャンプワイヤ(オス-オス) 5本
+## ・ブレッドボード
+## ・Raspberry Pi3 Model B
+## ・LED 5本
+## ・ジャンプワイヤ(オス-メス) 7本
+## ・ジャンプワイヤ(オス-オス) 5本
 # ピンの配置について
 GPIOは2,14,17,20,25の5カ所です。GNDはどこでもいいです。
 （因みにpinoutと打つと、GPIOやGNDの位置が分かります。）
 # インストール
-git clone https://github.com/Noel225/robosys.git
-cd robosys
-make
-sudo insmod myled.ko
-sudo chmod 666 /dev/myled0
+## git clone https://github.com/Noel225/robosys.git
+## cd robosys
+## make
+## sudo insmod myled.ko
+## sudo chmod 666 /dev/myled0
 # LEDの消灯
 echo 0 > /dev/myled0
 # LEDの点灯
