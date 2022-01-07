@@ -26,6 +26,8 @@ echo h > /dev/myled0
 # アンインストール
 sudo rmmod myled
 
+# 動画
+https://youtu.be/7w-jiCp_I7s
 
 # 参考
 sleepを使いたいがどんなヘッダファイルを追加すればよいか分からなかったため、以下の方のリポジトリを参考にした。
