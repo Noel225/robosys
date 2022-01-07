@@ -29,6 +29,13 @@ static ssize_t led_write(struct file* flip, const char* buf, size_t count, loff_
 		gpio_base[10] = 1<<2;
 	}
 	else if(c=='t'){
+		gpio_base[10] = 1<<25;
+		gpio_base[10] = 1<<20;	
+		gpio_base[10] = 1<<17;
+		gpio_base[10] = 1<<14;
+		gpio_base[10] = 1<<2;
+                
+		ssleep(4.0);
 		gpio_base[7] = 1<<25;
 		ssleep(1.5);
 		gpio_base[7] = 1<<20;
@@ -40,15 +47,21 @@ static ssize_t led_write(struct file* flip, const char* buf, size_t count, loff_
 		gpio_base[7] = 1<<2;
 	}
 	else if(c=='h'){
-		ssleep(4.5);
+		gpio_base[10] = 1<<25;
+		gpio_base[10] = 1<<20;
+	        gpio_base[10] = 1<<17;
+		gpio_base[10] = 1<<14;
+		gpio_base[10] = 1<<2;
+                
+		ssleep(4.0);
         	gpio_base[7] = 1<<2;
-        	ssleep(3.5);
+        	ssleep(1.5);
         	gpio_base[7] = 1<<14;
         	ssleep(2.5);
         	gpio_base[7] = 1<<17;
-        	ssleep(1.5);
+        	ssleep(3.5);
         	gpio_base[7] = 1<<20;
-        	ssleep(0.5);
+        	ssleep(4.5);
         	gpio_base[7] = 1<<25;
 	}
 
