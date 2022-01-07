@@ -13,6 +13,7 @@ Ubuntu Server 20.04
 GPIOは2,14,17,20,25の5カ所です。GNDはどこでもいいです。
 （因みにpinoutと打つと、GPIOやGNDの位置が分かります。）
 ![gazo](https://user-images.githubusercontent.com/92023120/148549805-f329cfae-7e3b-4912-a2ec-6390b1c87caf.jpeg)
+![gazo2](https://user-images.githubusercontent.com/92023120/148550502-96d559d2-27ef-40c4-814e-8fe3a09c8758.png)
 # インストール
 - git clone https://github.com/Noel225/robosys.git
 - cd robosys
