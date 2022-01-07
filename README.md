@@ -11,7 +11,7 @@ Ubuntu Server 20.04
 # ピンの配置について
 GPIOは2,14,17,20,25の5カ所です。GNDはどこでもいいです。
 （因みにpinoutと打つと、GPIOやGNDの位置が分かります。）
-https://github.com/Noel225/robosys/issues/1
+![gazo](https://github.com/Noel225/robosys/issues)
 # インストール
 - git clone https://github.com/Noel225/robosys.git
 - cd robosys
