@@ -1,5 +1,6 @@
 # デバイスドライバ
 2021年度のロボシス課題１のコードを少し変更しました。
+LEDが１本ずつ光ります。
 # 環境
 Ubuntu Server 20.04
 # 使用したもの
@@ -10,8 +11,8 @@ Ubuntu Server 20.04
 - ジャンプワイヤ(オス-オス) 5本
 - 抵抗 180Ω 5本
 # ピンの配置について
-GPIOは2,14,17,20,25の5カ所です。GNDはGNDと書いてある所であればどこでもいいです(２枚目の画像参照)。
-因みにpinoutと打つと、GPIOやGNDの位置が分かります。
+GPIOは2,14,17,20,25の5カ所です。GNDはGNDと書いてある所であればどこでもいいです(２枚目と３枚目の画像参照)。
+因みにpinoutと打つとGPIOやGNDの位置が分かります。sudo apt install なんちゃらと表示されるかもしれませんが、打てばインストールされ、使えるようになります。
 ![gazo](https://user-images.githubusercontent.com/92023120/148549805-f329cfae-7e3b-4912-a2ec-6390b1c87caf.jpeg)
 ![gazo2](https://user-images.githubusercontent.com/92023120/148550883-4543dee5-f4ca-43c7-addb-c00687eeb756.png)
 ![gazo3](https://user-images.githubusercontent.com/92023120/148550502-96d559d2-27ef-40c4-814e-8fe3a09c8758.png)
