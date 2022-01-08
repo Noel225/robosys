@@ -1,6 +1,6 @@
 # デバイスドライバ
-2021年度のロボシス課題用のデバイスドライバです。コードは上田先生のものを少し改良しました。
-LEDが１本ずつ光ります。
+2021年度のロボシス課題用のデバイスドライバです。LEDが1本ずつ光ります。コードは上田先生のものを少し改良しました。こちらが上田先生のデバイスドライバになります。
+https://github.com/ryuichiueda/robosys_device_drivers
 # 環境
 Ubuntu Server 20.04
 # 使用したもの
@@ -37,3 +37,6 @@ https://youtu.be/7w-jiCp_I7s
 # 参考
 sleepを使いたいがどんなヘッダファイルを追加すればよいか分からなかったため、以下の方のリポジトリを参考にしました。
 https://github.com/MiyamotoKK/robosys_devicedriver
+
+# ライセンス
+GPL 3.0
